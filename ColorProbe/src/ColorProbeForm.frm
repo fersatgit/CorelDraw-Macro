@@ -151,7 +151,7 @@ Private Sub Ok_buton_Click()
   Optimization = True
   ActiveDocument.BeginCommandGroup ''
   ActiveDocument.Unit = cdrTenthMicron
-  XCoord = ActiveWindow.ActiveView.OriginX - (Steps * 550000 - 50000) * 0.5
+  XCoord = ActiveWindow.ActiveView.OriginX - (Steps * 550000 + 500000) * 0.5
   YCoord = ActiveWindow.ActiveView.OriginY - 300000
   For i = Steps To 0 Step -1
     ActiveLayer.CreateRectangle2(XCoord, YCoord + 100000, 500000, 500000).Fill.ApplyUniformFill CreateCMYKColor(Round(C), Round(M), Round(Y), Round(K))
