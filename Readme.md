@@ -6,16 +6,16 @@
 Либо вы можете создать отдельную кнопку на панели (или пункт в меню) через диалог Параметры->Рабочее пространство->Команды. Там же можно назначить иконку (иконки брать в каталоге с макросом здесь на github).
 <h1>Список макросов</h1>
 Нажимай на стрелочку, чтобы раскрыть спойлер
-<p><details><summary><h2>ColorProbe</h2><br>Создание цветопроб CMYK.</summary><p>
+<p><details><summary><img src=ColorProbe\1.ico> <h2>ColorProbe</h2><br>Создание цветопроб CMYK.</summary><p>
 <b>Версия CorelDraw:</b> X3 и выше. В версиях CorelDraw ниже 17.4 не будет работать пипетка.<p>
 <img src=Readme\2.png><p>
 Цветопроба создаётся в центре экрана, размер квадрата 50x50 мм. Существует похожий <a href=https://forum.rudtp.ru/threads/coreldraw-makros-analog-color-chart-iz-rasterlink.82638/post-1438863>похожий макрос</a> для построения таблицы по 4 цветам.
 </details>
-<p><details><summary><h2>RDWorks</h2><br>Отправка геометрии в RDWorks.</summary><p>
+<p><details><summary><img src=RDWorks\1.ico> <h2>RDWorks</h2><br>Отправка геометрии в RDWorks.</summary><p>
 <b>Версия CorelDraw:</b> X3 и выше<p>
 Не требует установки RDWorks в каталог CorelDraw. Можно установить RDWorks отдельно и запускать его из разных версий CorelDraw. Макрос берёт путь к программе из параметра реестра "HKEY_LOCAL_MACHINE\SOFTWARE\RDSOFT\ExePath".
 </details>
-<p><details><summary><h2>SignPack</h2><br>Позволяет компоновать круги, правильные треугольники, прямоугольники и шестиугольники. Также создаются оптимальная траектория реза и метки для плоттера.</summary><p>
+<p><details><summary><img src=SignPack\1.ico> <h2>SignPack</h2><br>Позволяет компоновать круги, правильные треугольники, прямоугольники и шестиугольники. Также создаются оптимальная траектория реза и метки для плоттера.</summary><p>
 <b>Версия CorelDraw:</b> X5 и выше. В версиях CorelDraw ниже X7 нужно будет вручную проводить сокращение количества узлов.<p>
 <img src=Readme\1.png><p>
 <h3>Порядок работы</h3><ol>
