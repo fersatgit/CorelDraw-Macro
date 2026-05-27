@@ -6,6 +6,11 @@
 Либо вы можете создать отдельную кнопку на панели (или пункт в меню) через диалог Параметры->Рабочее пространство->Команды. Там же можно назначить иконку (иконки брать в каталоге с макросом здесь на github).
 <h1>Список макросов</h1>
 Нажимай на стрелочку, чтобы раскрыть спойлер
+<p><details><summary><img src=BannerFrame\1.ico> <h2>BannerFrame</h2><br>Создание рамки для баннеров, разметка люверсов.</summary><p>
+<b>Версия CorelDraw:</b> X3 и выше<br>
+<img src=Readme\4.png><p>
+<img src=Readme\5.png><p>
+</details>
 <p><details><summary><img src=ColorProbe\1.ico> <h2>ColorProbe</h2><br>Создание цветопроб CMYK.</summary><p>
 <b>Версия CorelDraw:</b> X3 и выше. В версиях CorelDraw ниже 17.4 не будет работать пипетка.<p>
 <img src=Readme\2.png><p>
