@@ -37,7 +37,6 @@
 <li><b>Развернуть на 180°</b> - после компоновки все объекты будут развёрнуты на 180 градусов. Эта опция нужна для плагина от SkyCut.
 <li><b>Быстрый рез</b> - Создаётся оптимальная траектория реза для компоновки без зазора. Примеры траекторий на анимации ниже</ul>
 <p><table>
-<style>td img{width: 100%}</style>
 <tr><td align=center><img src=Readme\0.svg><td align=center><img src=Readme\1.svg>
 <tr><td align=center><img src=Readme\2.svg><td align=center><img src=Readme\3.svg>
 </table></details>
