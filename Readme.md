@@ -16,6 +16,10 @@
 <img src=Readme\2.png><p>
 Цветопроба создаётся в центре экрана, размер квадрата 50x50 мм. Существует похожий <a href=https://forum.rudtp.ru/threads/coreldraw-makros-analog-color-chart-iz-rasterlink.82638/post-1438863>похожий макрос</a> для построения таблицы по 4 цветам.
 </details>
+<p><details><summary><img src=Marks\1.ico> <h2>Marks</h2>Расстановка меток для плоттерной или ручной резки.</summary><p>
+<b>Версия CorelDraw:</b> X3 и выше<p>
+<img src=Readme\6.png><p><img src=Readme\7.png>
+</details>
 <p><details><summary><img src=RDWorks\1.ico> <h2>RDWorks</h2><br>Отправка геометрии в RDWorks.</summary><p>
 <b>Версия CorelDraw:</b> X3 и выше<p>
 Не требует установки RDWorks в каталог CorelDraw. Можно установить RDWorks отдельно и запускать его из разных версий CorelDraw. Макрос берёт путь к программе из параметра реестра "HKEY_LOCAL_MACHINE\SOFTWARE\RDSOFT\ExePath".
