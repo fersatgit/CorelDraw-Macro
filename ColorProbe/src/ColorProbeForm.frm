@@ -1,6 +1,6 @@
 VERSION 5.00
 Begin {C62A69F0-16DC-11CE-9E98-00AA00574A4F} ColorProbeForm 
-   Caption         =   "Цветопроба"
+   Caption         =   "Цветопроба 1.1"
    ClientHeight    =   1395
    ClientLeft      =   45
    ClientTop       =   330
@@ -14,17 +14,13 @@ Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
-
-
 Private Function EditChange(ByRef Edit) As Long
-  If Edit.Value = Empty Then
-    EditChange = 0
-  Else
-    If Edit.Value > 100 Then
-      Edit.Value = 100
-    End If
-    EditChange = Edit.Value
+  If IsNumeric(Edit.Value) = False Then
+    Edit.Value = 0
+  ElseIf Edit.Value > 100 Then
+    Edit.Value = 100
   End If
+  EditChange = Edit.Value
   UserForm_Initialize
 End Function
 
@@ -143,6 +139,9 @@ Private Sub Ok_buton_Click()
   M = M1_edit.Value
   Y = Y1_edit.Value
   K = K1_edit.Value
+  If Not IsNumeric(Steps_edit.Value) Then
+    Steps_edit.Value = 1
+  End If
   Steps = Steps_edit.Value + 1
   CStep = (C2_edit.Value - C) / Steps
   MStep = (M2_edit.Value - M) / Steps
